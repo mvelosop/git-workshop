@@ -1,6 +1,5 @@
+# Remove all files and folders except the .sh files
 rm -rf .git
 rm -rf node_modules
-rm *.ts
-rm *.js
-rm *.json
-rm *.yaml
+
+find . -type f | grep -v "\.sh$" | xargs rm

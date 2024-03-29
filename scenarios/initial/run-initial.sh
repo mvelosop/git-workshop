@@ -1,9 +1,13 @@
+echo
+echo "Initial version"
+echo "=============="
+echo
+
 # Initialize git repository
 git init
 
 # Create a .gitignore file
 echo "node_modules" > .gitignore
-echo "*.sh" >> .gitignore
 echo ".DS_Store" >> .gitignore
 
 # Code initial version

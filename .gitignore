@@ -1,4 +1,3 @@
 node_mdoules
 scenarios/*
-!scenarios/*.sh
 .DS_Store

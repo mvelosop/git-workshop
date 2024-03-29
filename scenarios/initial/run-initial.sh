@@ -15,3 +15,6 @@ pnpm install
 # Commit initial version
 git add .
 git commit -m "Initial version"
+
+# Run the project
+npm start

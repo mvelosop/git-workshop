@@ -6,8 +6,12 @@ echo "node_modules" > .gitignore
 echo "*.sh" >> .gitignore
 echo ".DS_Store" >> .gitignore
 
-# code initial version
+# Code initial version
 code.sh initial
 
-# insrall dependencies
+# Install dependencies
 pnpm install
+
+# Commit initial version
+git add .
+git commit -m "Initial version"

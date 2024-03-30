@@ -26,12 +26,18 @@ npm start
 # revert merge
 git revert HEAD -m 1 --no-edit
 
+# Go back to main
+git checkout main
+
 # Update title
 code.sh merge-and-revert
 
 # Commit changes
 git add .
 git commit -m "Update title"
+
+# Go back to add-catalog-title branch
+git checkout add-catalog-title
 
 # Update branch with main
 git merge main --no-ff -m "Merge branch 'main' into add-catalog-title"
@@ -42,5 +48,9 @@ npm start
 # Go back to main
 git checkout main
 
-##
+## Merge add-catalog-title with revert
+git merge add-catalog-title --no-ff -m "Merge branch 'add-catalog-title'"
+
+# Run the project
+npm start
 

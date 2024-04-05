@@ -19,7 +19,7 @@ This is a repo to showcase the scenario of "disappearing" updates in git
 
 ## Troubleshooting
 
-If you don't get something like this:
+If you don't get something like this when running step 6 above:
 
 ![](images/initial-run.png)
 

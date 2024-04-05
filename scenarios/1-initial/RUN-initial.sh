@@ -1,6 +1,6 @@
 echo
 echo "Initial version"
-echo "=============="
+echo "---------------"
 echo
 
 # Initialize git repository
@@ -21,4 +21,4 @@ git add .
 git commit -m "Initial version"
 
 # Run the project
-npm start
+run-app.sh

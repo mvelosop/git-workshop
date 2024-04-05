@@ -1,6 +1,6 @@
 echo 
 echo "Add catalog title"
-echo "================="
+echo "-----------------"
 echo
 
 # Start from main
@@ -17,4 +17,4 @@ git add .
 git commit -m "Add catalog title"
 
 # Run the project
-npm start
+run-app.sh

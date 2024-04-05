@@ -1,6 +1,6 @@
 echo
 echo "Improve table"
-echo "============="
+echo "-------------"
 echo
 
 # Start from main
@@ -17,4 +17,4 @@ git add .
 git commit -m "Improve table"
 
 # Run the project
-npm start
+run-app.sh

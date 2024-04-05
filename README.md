@@ -26,4 +26,4 @@ If you don't get something like this when running step 6 above:
 It's probable that:
 
 - The scripts don't have execute permission (step 1 above)
-- The `scripts` folder isn't in the current PATH
+- The `scripts` folder isn't in the current PATH (step 3 above)

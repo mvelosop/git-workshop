@@ -14,21 +14,22 @@ This repo is a showcase to one scenario of "disappearing" updates in git, so tha
 
 ## Quick run
 
-1. Run the `chmod+x.sh` to give execute permission to all scripts. (You'll have to give execute permission to this one first yourself, of course.)
+1. Run the `chmod+x.sh` to give execute permission to all scripts. (You'll have to give execute permission to this one first, of course.)
 2. Go to the `scripts` folder
 3. Run the command: `source set-path.sh` to add the scripts folder to the PATH for the session.
 4. Go the `scenarios/4-merge-and-revert` folder
    - You'll see the scenario better if you open a new editor session in this folder  
 5. Run the `./CLEAN.sh` script to get a clean start.
-6. Run the `./RUN-merge-and-revert.sh` and follow the prompts
+6. Run the `./RUN-merge-and-revert.sh`, read the messages and follow the prompts
    - Explore the git branches as you execute each step
    - After executing the last step, the changes introduced in step 3 will be gone without a warning or conflict!
 
 ## Get the answers
 
 - Why did this happen?
-- How would you solve this (without repeating the codification)?
-- What lesson can you extract from this scenario?
+- How could it be avoided?
+- How would you solve this (without coding it back by hand)?
+- What lessons can you extract from this scenario?
 
 ## Troubleshooting
 

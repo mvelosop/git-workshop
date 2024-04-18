@@ -2,6 +2,10 @@ echo
 echo "Initial version"
 echo "---------------"
 echo
+echo "In this step, we'll start a new library project with a simple catalog listing."
+echo "We'll make this change in the main branch."
+echo "                              ----"
+echo
 
 # Initialize git repository
 git init

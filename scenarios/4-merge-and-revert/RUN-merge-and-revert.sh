@@ -26,12 +26,16 @@ echo
 read -p "Press enter to continue..."
 
 # Merge to main
+echo
+echo "We'll now merge the improve-table branch into main..."
+echo "                    -------------             ----"
+
 git checkout main
 git merge improve-table --no-ff -m "Merge branch 'improve-table'"
 
 echo 
-echo "Merge main with add-catalog-title..."
-echo "------------------------------------"
+echo "and merge main with the add-catalog-title branch."
+echo "          ----          -----------------"
 echo
 
 # Go back to add-catalog-title branch
@@ -51,8 +55,7 @@ read -p "Press enter to continue..."
 
 # Revert merge
 echo
-echo "... and now revert the merge"
-echo "----------------------------"
+echo "... and now, for whatever reason, we revert this last merge"
 echo
 
 # revert merge
@@ -70,6 +73,9 @@ read -p "Press enter to continue..."
 echo
 echo "Update the data in main"
 echo "-----------------------"
+echo
+echo "We'll now add more books in the main branch."
+echo "                                ----"
 echo
 
 # Go back to main
@@ -95,6 +101,11 @@ echo
 echo "Merge all changes into main"
 echo "---------------------------"
 echo
+echo "Now we'll merge the add-catalog-title branch with main,"
+echo "                    -----------------             ----"
+echo "so we update add-catalog-title with main first"
+echo "and then merge add-catalog-title into main."
+echo
 
 # Go back to the add-catalog-title branch
 git checkout add-catalog-title
@@ -114,6 +125,8 @@ run-app.sh
 # Pause to check the final version
 echo
 echo "Explore the final version"
+echo
+echo " At this point, the improve table feature has disappeared from main."
 echo
 
 

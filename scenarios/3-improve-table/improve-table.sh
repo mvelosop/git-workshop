@@ -2,6 +2,10 @@ echo
 echo "Improve table"
 echo "-------------"
 echo
+echo "In this step, we'll improve the catalog listing to use a table format."
+echo "We'll make this change in the improve-table branch."
+echo "                              -------------"
+echo
 
 # Start from main
 git checkout main
